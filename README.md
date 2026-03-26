@@ -155,3 +155,12 @@ These are pre-configured in the project.
 ## License
 
 Proprietary - AegisScan
+<img width="1437" height="1600" alt="screen" src="https://github.com/user-attachments/assets/528c98d9-3c2b-4737-a234-f134f8e7c550" />
+
+
+<img width="1377" height="1600" alt="screen" src="https://github.com/user-attachments/assets/328971d7-8030-4d64-8716-cbda7b3bb382" />
+
+<img width="1463" height="1600" alt="screen" src="https://github.com/user-attachments/assets/b4f69d52-16be-4264-bec4-3998d3b59884" />
+
+<img width="1437" height="1600" alt="screen" src="https://github.com/user-attachments/assets/63cea00e-b300-470c-aff2-00871939ef39" />
+
