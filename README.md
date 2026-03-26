@@ -1,6 +1,4 @@
-<img width="1600" height="1280" alt="screen" src="https://github.com/user-attachments/assets/9df7c58b-5089-4f3c-a70b-84e152e17708" /># AegisScan - The Sentinel AI
 
-**AI-Based Cargo Image Inspection for Customs and Border Security**
 
 ## Overview
 
