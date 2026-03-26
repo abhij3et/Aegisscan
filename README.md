@@ -1,4 +1,8 @@
 
+<img width="1605" height="551" alt="diagram-export-3-27-2026-1_44_01-AM" src="https://github.com/user-attachments/assets/9449c2c3-b16b-4768-b385-4ba0fb444402" />
+
+
+SYSTEM ARCHITECTURE
 
 ## Overview
 
