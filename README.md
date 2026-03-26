@@ -1,62 +1,157 @@
-*AI-Based Cargo Image Inspection for Customs and Border Security*
+# AegisScan - The Sentinel AI
 
-📌 Project Overview
+**AI-Based Cargo Image Inspection for Customs and Border Security**
 
-This project presents an AI/ML-based solution for detecting suspicious, misdeclared, or prohibited objects in cargo X-ray images for customs and border security applications. Cargo inspection agencies handle large volumes of shipments every day, and manual inspection of X-ray images is time-consuming, error-prone, and inconsistent.
+## Overview
 
-The goal of this project is to build a deep learning model that can automatically analyze cargo scan images and identify risky or unusual objects, helping security officers make faster and more accurate decisions.
+AegisScan is a modern, full-stack web application for detecting suspicious, misdeclared, or prohibited objects in cargo X-ray images. Built with React, Vite, and Supabase, it provides customs and border security agencies with an intelligent screening platform.
 
-🎯 Objective
+## Features
 
-The system is designed to:
+- **User Authentication** - Secure Supabase authentication for operators
+- **Real-time Image Upload** - Upload and analyze cargo X-ray images instantly
+- **AI Object Detection** - Detect and classify suspicious items with confidence scoring
+- **Bounding Box Visualization** - See exactly where threats are detected
+- **Live Feed Monitoring** - Real-time scan analysis interface
+- **Analytics Dashboard** - View system performance metrics and trends
+- **Scan History** - Persistent storage of all scans and detections
+- **Risk Scoring** - Automatic threat level classification
 
-Detect prohibited or suspicious objects in cargo X-ray images
-Highlight detected objects using bounding boxes
-Classify detected items into categories (normal / suspicious / prohibited)
-Assign a confidence score for each detection
-Assist customs officers in risk-based cargo screening
-🚀 Features
-Object detection using Deep Learning
-Image preprocessing and enhancement
-Bounding box visualization for detected objects
-Confidence / risk scoring
-Support for real-world cargo X-ray datasets
-Simple interface for testing images
-📂 Dataset
+## Tech Stack
 
-The model is trained using publicly available X-ray security datasets such as:
+**Frontend**
+- React 18 with Vite
+- Tailwind CSS for styling
+- Material Design icons
 
-PIDray Dataset
-SIXray Dataset
-CargoXray Dataset
+**Backend & Database**
+- Supabase for authentication and database
+- PostgreSQL for data persistence
+- Row-Level Security (RLS) for data protection
 
-These datasets contain labeled X-ray images with prohibited items such as weapons, tools, electronics, and other restricted objects.
+## Getting Started
 
-🧠 Technologies Used
-Python
-TensorFlow / PyTorch
-OpenCV
-YOLO / CNN-based Object Detection
-NumPy / Matplotlib
-Flask / Streamlit (for demo interface)
-🛠️ Working
-Input cargo X-ray image
-Preprocessing and normalization
-Object detection using trained model
-Detection output with bounding boxes
-Confidence score generation
-Display result to user
-📊 Expected Output
-Detected object labels
-Highlighted suspicious regions
-Confidence score
-Risk indication for cargo image
-🎓 Use Case
+### Prerequisites
+- Node.js 16+
+- npm or yarn
+- Supabase account (already configured)
 
-This system can be used in:
+### Installation
 
-Customs cargo inspection
-Airport baggage screening
-Border security scanning
-Logistics shipment verification
-Automated risk detection systems
+```bash
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+The app will start at `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+Output will be in the `dist/` directory.
+
+## Project Structure
+
+```
+src/
+├── components/       # Reusable UI components
+├── contexts/        # React context (Auth)
+├── lib/             # Utilities (Supabase client)
+├── pages/           # Page components (Home, Analytics, LiveFeed, Contact)
+├── App.jsx          # Main app component
+├── main.jsx         # Entry point
+└── tailwind.css     # Global styles
+```
+
+## Database Schema
+
+### Tables
+- **users** - User profiles and operator info
+- **scans** - Cargo scan records with metadata
+- **detections** - AI-detected objects and bounding boxes
+- **scan_results** - Overall scan classification and notes
+
+All tables have Row-Level Security enabled to ensure users can only access their own data.
+
+## Environment Variables
+
+The `.env` file should contain:
+```
+VITE_SUPABASE_URL=https://[project].supabase.co
+VITE_SUPABASE_SUPABASE_ANON_KEY=[your-key]
+```
+
+These are pre-configured in the project.
+
+## Authentication Flow
+
+1. Users sign up with email and password
+2. Create operator profile with unique ID
+3. Automatic user record creation in database
+4. Session management via Supabase Auth
+5. RLS policies ensure data isolation
+
+## Live Feed Features
+
+- Upload cargo X-ray images
+- Real-time AI detection processing
+- Visual bounding boxes for detected threats
+- Confidence scores for each detection
+- Threat level classification (Nominal/Medium/High)
+- Operator notes and logging
+- Archive and finalize reports
+
+## Analytics Dashboard
+
+- Real-time system performance metrics
+- Scans per hour tracking
+- Total threats detected
+- Detection accuracy statistics
+- Historical trend analysis
+- Scan history with filtering
+
+## Home Dashboard
+
+- System status overview
+- Quick access to scanner
+- Recent scan analysis
+- Regional health status
+- Active scan count
+- Infrastructure monitoring
+
+## Use Cases
+
+- Customs cargo inspection
+- Airport baggage screening
+- Border security scanning
+- Logistics shipment verification
+- Automated threat detection
+
+## Security
+
+- All data encrypted at rest and in transit
+- AES-256 encryption for sensitive data
+- Row-Level Security on database tables
+- Authenticated user sessions
+- Audit logging for all operations
+
+## Future Enhancements
+
+- Integration with real ML/AI object detection APIs
+- Advanced threat classification models
+- Multi-user collaboration features
+- Custom alerting and notifications
+- API access for third-party integrations
+- Mobile app for field operators
+
+## License
+
+Proprietary - AegisScan
