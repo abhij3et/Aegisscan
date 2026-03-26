@@ -1,4 +1,4 @@
-# AegisScan - The Sentinel AI
+<img width="1600" height="1280" alt="screen" src="https://github.com/user-attachments/assets/9df7c58b-5089-4f3c-a70b-84e152e17708" /># AegisScan - The Sentinel AI
 
 **AI-Based Cargo Image Inspection for Customs and Border Security**
 
@@ -152,15 +152,37 @@ These are pre-configured in the project.
 - API access for third-party integrations
 - Mobile app for field operators
 
+
+
 ## License
 
 Proprietary - AegisScan
-<img width="1437" height="1600" alt="screen" src="https://github.com/user-attachments/assets/528c98d9-3c2b-4737-a234-f134f8e7c550" />
+
+<img width="1437" height="1600" alt="screen" src="https://github.com/user-attachments/assets/9d2143c3-78bd-4bbb-90fd-044a310d4e95" />
+
+#Analytics
+
+<img width="1463" height="1600" alt="screen" src="https://github.com/user-attachments/assets/3374e9f3-d577-47ad-9b82-d04af93f61e3" />
+
+#contact
+<img width="1377" height="1600" alt="screen" src="https://github.com/user-attachments/assets/3d8a82ad-42cb-4d31-8786-a0d03d33c8a0" />
+
+#home
+<img width="1600" height="1280" alt="screen" src="https://github.com/user-attachments/assets/9bd6557b-8766-4778-93cd-42688639405f" />
+
+#live feed
 
 
-<img width="1377" height="1600" alt="screen" src="https://github.com/user-attachments/assets/328971d7-8030-4d64-8716-cbda7b3bb382" />
 
-<img width="1463" height="1600" alt="screen" src="https://github.com/user-attachments/assets/b4f69d52-16be-4264-bec4-3998d3b59884" />
 
-<img width="1437" height="1600" alt="screen" src="https://github.com/user-attachments/assets/63cea00e-b300-470c-aff2-00871939ef39" />
+
+
+
+
+
+
+
+
+
+
 
