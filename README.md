@@ -4,7 +4,7 @@
 
 SYSTEM ARCHITECTURE
 
-## Overview
+## Overview:
 
 AegisScan is a modern, full-stack web application for detecting suspicious, misdeclared, or prohibited objects in cargo X-ray images. Built with React, Vite, and Supabase, it provides customs and border security agencies with an intelligent screening platform.
 
