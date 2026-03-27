@@ -19,7 +19,7 @@ AegisScan is a modern, full-stack web application for detecting suspicious, misd
 - **Scan History** - Persistent storage of all scans and detections
 - **Risk Scoring** - Automatic threat level classification
 
-## Tech Stack
+## Tech Stack:
 
 **Frontend**
 - React 18 with Vite
